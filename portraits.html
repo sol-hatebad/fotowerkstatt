@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Kreative und Design</title>
+    <link href="portraits.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Beau Rivage' rel='stylesheet'>
+   <!-- <script src="index.js"></script> -->
+       <script>function changeImage(image){
+                    let bigImage = document.querySelector(".big-image");
+                    bigImage.src = image.src;
+                    bigImage.parentElement.style.display = "block";}
+                </script>
+    </head>
+    
+    <body class="design">
+<div class="header">
+    <img class="header" id ="top" src="images/banner4-1.jpg">
+</div>
+    <ul class="menu">
+        <li class="menu-item nav first"><a href="front.html">Home</a></li>
+        <li class="menu-item nav"><a href="#port">Portraits</a></li>
+        <li class="menu-item nav"><a href="#land">Landschaftsphotographie</a></li>
+        <li class="menu-item nav"><a href="#animal">Tiere</a></li>
+        <li class="menu-item nav"><a href="#wedding">Hochzeit</a></li>
+        <li class="menu-item exercise"><a href="index.html">zur Tabellenaufgabe</a></li>
+    </ul>    
+<div class="inhalt" id="port">
+    <fieldset class="inhalt">
+                <p class="header">Portraits</p>
+                <p class="textfeld">Jeder Mensch ist sch&ouml;n, ohne Ausnahme. Es kommt nur darauf an die Person richtig in Szene zusetzen. Dies ist eine Herausforderung f&uuml;r jeden Fotografen, aber gerne bin ich bereit mich dieser Herausforderung mit euch gemeinsam zu stellen.<br /><br />Anbei findet ihr einige Beispielbilder </p>
+            <div class="image-viewer">
+               <img class="big-image" src="images/shooting/Shooting_031.jpg" alt="">
+            
+            </div><br>
+        
+         
+            <div class="image-container">
+                    <img src="images/shooting/Shooting_031.jpg" alt="" onclick="changeImage(this)"><br><br>
+                    <img src="images/shooting/Fantasy_005.jpg" alt="" onclick="changeImage(this)"><br><br>
+                    <img src="images/shooting/Shooting_010.jpg" alt="" onclick="changeImage(this)"><br><br>
+                    <img src="images/shooting/Shooting_055.jpg" alt="" onclick="changeImage(this)"><br><br>
+                    <img src="images/shooting/Shooting_070.jpg" alt="" onclick="changeImage(this)"><br><br>
+            </div>
+    </fieldset>
+</div>
+    
+    </body>
+    
+    <footer>
+    <div class="icon-bar">        
+        <a  href="https://www.facebook.com/fotowerkstatt.reinhold.paus" target="_blank"><img class="icon" src="images/scoial_icon/facebook.png"></a> 
+        <a  href="https://www.instagram.com/fotowerkstatt_reinhold_paus/?hl=de" target="_blank"><img class="icon" src="images/scoial_icon/insta.png"></a> 
+    </div>
+</footer>
+    
+</html>
