@@ -1,0 +1,200 @@
+/* farbpalette 
+
+#39161C
+#8F3C44
+#C7686E
+#F1A1A8
+*/
+
+body.design{
+    color:white;
+    background-color: black;
+}
+fieldset {
+    background-color: #39161C;;
+}
+img.header {
+    width:100%;
+    }
+
+/* navbar*/
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #39161C;
+    position: sticky;
+    top: 10;
+    border-bottom: solid 1px white;
+}
+
+
+
+
+li.menu-item {
+    font-family: Beau Rivage;
+    font-size: 50px;
+    float:left;
+}
+
+li.first {
+    padding-left: 50px;
+    
+}
+
+li.exercise {
+    font-family: Beau Rivage;
+    font-size: 50px;
+    float: right;
+    padding-right: 50px;
+}
+
+li.menu-item a{
+    display: block;
+    color:white;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li.menu-item a:hover{
+    background-color: #8F3C44;
+    
+}
+/* Inhalte*/
+
+fieldset.inhalt {
+    
+    margin:10px 10% 10px 10%;
+    min-width: 600px;
+    border-radius: 25px;
+}
+
+
+/* gallery */
+.outer {
+    height:175px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image-container {
+    box-shadow: 2px 2px 10px black;
+    border: 1px solid white;
+    width: 1000px;
+    height: 167px;
+    display: inline-block;
+    overflow-x:hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: auto;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8F3C44;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #60161C;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F1A1A8;
+}
+
+.image-container img {
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    transition: 0.2s ease;
+    
+}
+
+.image-container img:hover {
+    opacity: 0.7;
+}
+
+.image-viewer img{
+    box-shadow: 2px 2px 10px black;
+    width: auto;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px white;
+    }
+
+
+
+
+
+img.content {
+    width: 35%;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px white;
+    
+}
+
+img.hidden{
+    display:none;}
+p.header {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    font-family: 'Beau Rivage';
+    text-shadow: 2px 2px black;
+    
+}
+legend {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Beau Rivage';
+    text-shadow: 2px 2px black;
+    
+}
+
+.textfeld {
+    letter-spacing: 1.5px;
+    font-family: 'Beau Rivage';
+    font-size: 30px;
+    
+    margin: 0% 15% 5% 15%;
+    display: block;
+}
+ /* footer */
+
+
+.icon-bar {
+    height: 100%;
+    display: inline-block;
+    padding-top: 15px 0px 10px 5px;
+    width: 160px;
+    position: fixed;
+    left: 2.5%;
+    z-index: 1;
+    top: 35%;
+
+    background-color: none;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.icon {
+    
+    margin: 15px;
+    height: 50px;
+    padding-top: 20%px;
+}
+
+.icon:hover {
+    filter:drop-shadow(2px 2px 3px #ffffff)
+}
