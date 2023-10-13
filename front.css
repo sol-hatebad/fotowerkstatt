@@ -72,12 +72,6 @@ li.first {
     
 }
 
-li.exercise {
-    font-family: Beau Rivage;
-    font-size: 50px;
-    float: right;
-    padding-right: 50px;
-}
 
 li.menu-item a{
     display: block;
